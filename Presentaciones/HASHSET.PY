@@ -55,7 +55,11 @@ x=HashSet()
 print(x.hash_values(5))
 x.add(5)
 x.add(6)
-x.add(7)
+x.add(3)
+x.add(4)
+x.add(1)
+x.add(1)
+x.add(9)
 x.display()
 print("Contiene a 5: ", x.contains(5))
 print("Contiene a 6: ", x.contains(8))
@@ -70,3 +74,16 @@ x.display()
 
 
 ##Fuente: https://www.pythonpool.com/python-hashset/
+
+
+
+
+a=[5,4,1]
+b=[2,3,4]
+nuevalista=[]
+ 
+for i in range(len(a)):
+	nuevalista.append(a[i]+b[i])
+ 
+print (nuevalista)
+
